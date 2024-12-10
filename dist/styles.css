@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  min-height: 1000px;
+  margin: 50px;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container .left-side {
+  position: relative;
+  background: #003147;
+  padding: 40px;
+}
+
+.container .right-side {
+  position: relative;
+  background: #fff;
+  padding: 40px;
+}
+
+/*# sourceMappingURL=styles.css.map */
