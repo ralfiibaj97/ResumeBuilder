@@ -60,8 +60,44 @@ body {
     margin-top: 10px;
     display: block;
 }
-.frofileText .contact {
-    
+.profileText h2 span {
+    color: #f9a825;
+    font-size: .8rem;
+    font-weight: 300;
+}
+.contact {
+    padding-top: 30px;
+
+}
+.title {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.contact ul {
+    position: relative;
+}
+.contact ul li {
+    position: relative;
+    list-style: none;
+    margin: 12px 0;
+    cursor: pointer;
+}
+.contact ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+}
+.contact ul li span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 10px;
 }
 .container .right-side {
     position: relative;
